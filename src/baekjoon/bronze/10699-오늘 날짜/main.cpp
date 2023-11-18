@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    // [참고](https://coding-factory.tistory.com/668)
     time_t timer = time(NULL);
     struct tm *t = localtime(&timer);
 
