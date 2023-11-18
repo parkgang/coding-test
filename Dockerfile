@@ -9,8 +9,5 @@ RUN apt-get update && \
         # Container 환경에서 학습 내용을 관리하기 위함
         git
 
-# 코드 실행 공간: 미리 생성
-WORKDIR /playground
-
 # 컨테이너가 계속 실행되도록 설정
 CMD tail -f /dev/null
