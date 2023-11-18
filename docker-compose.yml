@@ -4,4 +4,4 @@ services:
   playground:
     build: .
     volumes:
-      - .:/src
+      - .:/repo
