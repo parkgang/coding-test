@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "2" << endl;
+    cout << "parkgang" << endl;
+
+    return 0;
+}
