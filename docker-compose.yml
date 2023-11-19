@@ -5,3 +5,6 @@ services:
     build: .
     volumes:
       - .:/repo
+    environment:
+      LANG: ko_KR.UTF-8
+      TZ: Asia/Seoul
