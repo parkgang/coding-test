@@ -4,7 +4,8 @@ services:
   playground:
     build: .
     volumes:
-      - .:/repo
+      # Docker에서 수행되는 프로젝트는 한개인데 굳이 이름을 구분하는 이유는 `WakaTime` 와 같은 곳에서 프로젝트 이름을 인식하기 위함
+      - .:/repo/coding-test
     environment:
       LANG: ko_KR.UTF-8
       TZ: Asia/Seoul

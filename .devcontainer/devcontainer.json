@@ -2,7 +2,7 @@
   "name": "coding test playground",
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "playground",
-  "workspaceFolder": "/repo/src",
+  "workspaceFolder": "/repo/coding-test/src",
   "customizations": {
     "vscode": {
       "extensions": [
