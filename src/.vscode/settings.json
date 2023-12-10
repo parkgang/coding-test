@@ -1,4 +1,9 @@
 {
+  // markdown에 이미지 추가 경로 변경
+  "markdown.copyFiles.destination": {
+    "*": "${documentDirName}/assets/"
+  },
+
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
