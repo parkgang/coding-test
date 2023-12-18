@@ -1,8 +1,8 @@
 ## 문제
 
-https://www.acmicpc.net/problem/24262
+https://www.acmicpc.net/problem/24263
 
-`8분` 소요
+약 `9분 30초` 소요
 
 ## 풀이
 
