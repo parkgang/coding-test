@@ -35,3 +35,13 @@ bool isContinuity666 = regex_search(to_string(movieTitle), pattern);
 if (isContinuity666)
     cnt++;
 ```
+
+## 참고
+
+### 시간 복잡도 최적화: `/` 와 `%` 를 이용해서 구하기
+
+`666` 으로 연속되는 수를 찾으면 되는 것이라 `% 1000` 으로 맨 뒷 3자리만 구해서 `666` 이면 찾은 것으로 인지하고, 아니면 `/ 10` 으로 일의 자리를 계속 컷팅해서 하는 방법이 있었습니다.
+
+이렇게 하면 시간 복잡도가 많이 줄어들 것 같습니다.
+
+참고: https://cocoon1787.tistory.com/155
