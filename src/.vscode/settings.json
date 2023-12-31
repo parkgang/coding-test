@@ -4,6 +4,9 @@
     "*": "${documentDirName}/assets/"
   },
 
+  // 터미널에 여러 줄 붙어 넣기 경고 비활성화: 백준의 예제 값 그대로 손쉽게 붙어 넣기 위함
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
