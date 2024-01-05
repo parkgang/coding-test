@@ -10,6 +10,8 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+  // [코드 포매팅 스타일을 정의합니다](https://80000coding.oopy.io/bd5c80d7-92ce-4387-ae74-b6d35ad77635)
+  "C_Cpp.clang_format_fallbackStyle": "Google",
   "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
   "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
   "C_Cpp.inlayHints.parameterNames.enabled": true,
