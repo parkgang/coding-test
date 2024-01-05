@@ -18,6 +18,8 @@ int main() {
   }
 
   // 포인터 배열 생성
+  // C 스타일 2차원 배열의 각 행이 연속된 메모리 블록으로 구성되어 있기 때문에
+  // std::sort와 같은 표준 알고리즘을 직접 사용하기 어렵기 때문에 변경이 필요
   const int *pointsPtrs[n];
   for (int i = 0; i < n; ++i) {
     pointsPtrs[i] = arr[i];
