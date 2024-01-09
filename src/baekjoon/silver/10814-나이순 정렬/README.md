@@ -23,3 +23,5 @@ https://www.acmicpc.net/problem/10814
 - 나이, 이름, 순서를 저장하려면 여러 타입이 필요한데 이때 `struct` 를 사용하면 손쉽게 만들 수 있었다.
   - 배워놓고 다 까먹었네...
   - 참고: https://velog.io/@matcha_/%EB%B0%B1%EC%A4%80-10814-%EB%82%98%EC%9D%B4%EC%88%9C-%EC%A0%95%EB%A0%AC-C-%EC%A0%95%EB%A0%AC
+- `순서` 를 따로 저장하지 않고 `stable_sort()` 를 이용해서 유지할 수 있다.
+  - 참고: https://velog.io/@matcha_/%EB%B0%B1%EC%A4%80-10814-%EB%82%98%EC%9D%B4%EC%88%9C-%EC%A0%95%EB%A0%AC-C-%EC%A0%95%EB%A0%AC
