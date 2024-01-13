@@ -24,10 +24,10 @@ int main() {
     string v;
     cin >> v;
 
-    try {
+    if (isdigit(v[0])) {
       auto index = stoi(v);
       cout << vec[index - 1] << "\n";
-    } catch (...) {
+    } else {
       cout << unmap[v] + 1 << "\n";
     }
   }
