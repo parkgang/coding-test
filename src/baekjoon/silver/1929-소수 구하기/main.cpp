@@ -1,19 +1,31 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-bool isPrime(int num) {
-  if (num <= 1) return false;
+void printPrimes(int m, int n) {
+  /**
+   * true   : 소수 O
+   * false  : 소수 X
+   */
+  vector<bool> prime(n + 1, true);
 
-  if (num == 2 || num == 3) return true;
+  // 이미 소수가 아닌 수들
+  prime[0] = prime[1] = false;
 
-  if (num % 2 == 0 || num % 3 == 0) return false;
-
-  for (int i = 5; i * i <= num; ++i) {
-    if (num % i == 0 || num % (i + 2) == 0) return false;
+  for (int p = 2; p * p <= n; p++) {
+    // 참: 소수
+    if (prime[p]) {
+      for (int i = p * p; i <= n; i += p) {
+        // 소수의 배수는 모두 소수가 아니므로 벤
+        prime[i] = false;
+      }
+    }
   }
 
-  return true;
+  for (int p = m; p <= n; p++)
+    // 소수 출력
+    if (prime[p]) cout << p << "\n";
 }
 
 int main() {
@@ -24,11 +36,7 @@ int main() {
 
   cin >> M >> N;
 
-  for (int i = M; i <= N; i++) {
-    if (isPrime(i)) {
-      cout << i << "\n";
-    }
-  }
+  printPrimes(M, N);
 
   return 0;
 }
