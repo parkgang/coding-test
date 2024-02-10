@@ -6,14 +6,15 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        // util (컨테이너 새롭게 시작되고 설치하기 귀찮아서 명시, 필요에 따라 업데이트)
+        // util: 컨테이너 새롭게 시작되고 설치하기 귀찮아서 명시, 필요에 따라 업데이트
         "esbenp.prettier-vscode",
         "mhutchie.git-graph",
         "eamodio.gitlens",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "VisualStudioExptTeam.intellicode-api-usage-examples",
         "sculove.translator",
         "WakaTime.vscode-wakatime",
+        // C++ 도움될 수 있는 것
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
         // C++
         "ms-vscode.cpptools"
       ]
