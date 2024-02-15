@@ -2,9 +2,8 @@
   // markdown에 이미지 추가 경로 변경
   "markdown.copyFiles.destination": {
     "*": "${documentDirName}/assets/"
-  }
+  },
 
-  // 기존에는 경고가 나와서 비활성화 했지만 기본 값인 `auto` 으로 잘 되는 거 같아 주석 처리
   // 터미널에 여러 줄 붙어 넣기 경고 비활성화: 백준의 예제 값 그대로 손쉽게 붙어 넣기 위함
-  // "terminal.integrated.enableMultiLinePasteWarning": "never"
+  "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
